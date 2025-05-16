@@ -1,0 +1,103 @@
+<!--index html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Foodie App</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background: #fff9f5;
+    }
+    header {
+      background-color: #ff6b6b;
+      padding: 20px;
+      color: white;
+      text-align: center;
+    }
+    h1 {
+      margin: 0;
+    }
+    .menu {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      padding: 20px;
+    }
+    .item {
+      background: #fff;
+      border: 1px solid #eee;
+      border-radius: 10px;
+      margin: 15px;
+      padding: 15px;
+      width: 220px;
+      text-align: center;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    .item img {
+      width: 100%;
+      border-radius: 10px;
+    }
+    .item h3 {
+      margin: 10px 0 5px;
+    }
+    .item p {
+      font-size: 14px;
+      color: #555;
+    }
+    .order-btn {
+      background: #ff6b6b;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 20px;
+      cursor: pointer;
+      margin-top: 10px;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #ffe3dc;
+      margin-top: 40px;
+      color: #444;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>🍕 Foodie App</h1>
+    <p>Delicious food delivered fast!</p>
+  </header>
+
+  <div class="menu">
+    <div class="item">
+      <img src="https://source.unsplash.com/220x150/?pizza" alt="Pizza">
+      <h3>Cheese Pizza</h3>
+      <p>Cheesy and hot pizza with fresh ingredients.</p>
+      <button class="order-btn">Order Now</button>
+    </div>
+
+    <div class="item">
+      <img src="https://source.unsplash.com/220x150/?burger" alt="Burger">
+      <h3>Beef Burger</h3>
+      <p>Juicy beef patty with crispy fries on the side.</p>
+      <button class="order-btn">Order Now</button>
+    </div>
+
+    <div class="item">
+      <img src="https://source.unsplash.com/220x150/?salad" alt="Salad">
+      <h3>Greek Salad</h3>
+      <p>Healthy and fresh mix of veggies and feta cheese.</p>
+      <button class="order-btn">Order Now</button>
+    </div>
+  </div>
+
+  <footer>
+    © 2025 Foodie App | Built with ❤️
+  </footer>
+
+</body>
+</html>
